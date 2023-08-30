@@ -1,0 +1,151 @@
+//
+
+// let nome = prompt("qual seu nome? ");
+// let cor = prompt("qual sua cor favorita? ");
+
+// console.log("a cor favorita de " + nome + " é " + cor );
+
+//
+
+// const nome = "Parkes"
+
+// console.log(nome.length);
+
+// const frase = "OieEeEee!"
+// const fraseMinuscula = frase.toLowerCase();
+
+// console.log(fraseMinuscula);
+
+//
+
+// const fraseDois = "OieEeEee!"
+// const fraseMaiuscula = fraseDois.toUpperCase();
+
+// console.log(fraseMaiuscula);
+
+//
+
+// const email = "   parkeeekis@gmail.com   "
+
+// console.log(email)
+// console.log(email.trim());
+
+//
+
+
+// const fraseTres = "hoje comi arroz"
+
+// console.log(fraseTres.includes("arroz"));
+// console.log(fraseTres.includes("batata"));
+
+//
+
+// const frase = ("hoje comi arroz, adoro arroz");
+// const novaFrase = frase.replaceAll("arroz", "carne");
+
+// console.log(novaFrase);
+
+//
+
+// let frase = prompt("escreva uma frase");
+
+// let fraseMaiuscula = frase.toUpperCase();
+
+// let novaFrase = frase.replaceAll("o", "i");
+
+// console.log(frase);
+
+// console.log(novaFrase);
+
+// console.log(fraseMaiuscula);
+
+// console.log(frase.length);
+
+//
+
+// const listaDeCompras = ["batata", "alface", "queijo"]
+
+// const listaDeNumerosMega = [2, 13, 26, 35, 41, 60]
+
+// console.log("lista de compras", listaDeCompras);
+// console.log("numeros da mega", listaDeNumerosMega);
+
+//
+
+// const meuArray = ["banana", 15, true]
+
+// console.log("array", meuArray);
+
+//
+
+// const listaDeCompras = ["abacate", "banana", "tomate"];
+// const segundoItem = listaDeCompras[2];
+
+//
+
+// const cachorro = ["vira lata", "caramelo", "pug", "cavalo", "jaguara"];
+
+// let numero = prompt("insira um numero de 0 a 4");
+
+// console.log(cachorro[numero]);
+
+// console.log(cachorro.length);
+
+//
+
+// const pokemon = ["bulbasauro", "squirtle", "charmander"];
+// console.log(pokemon.length);
+
+//
+
+// const seriesBoas = prompt["Breaking Bad", "Rick and Morty"];
+
+// seriesBoas.includes("Breaking Bad");
+// seriesBoas.includes("Rick and Morty");
+
+//
+
+// const numeros = [1, 2, 3];
+
+// numeros.push(4);
+// console.log(numeros);
+
+// numeros.push(5, 6, 7);
+// console.log(numeros);
+
+//
+
+// const meusPeixes = ["palhaco", "mandarim", "esturjao"]
+
+// meusPeixes.pop()
+// console.log(meusPeixes);
+
+//
+
+//const letras = ["A", "B", "C", "D", "E", "F", "G", "H"];
+//// indices (i)   0    1    2    3    4    5    6    7
+
+//letras.splice(2, 1);
+////   letras = ["A", "B", "D", "E", "F", "G", "H"]
+//// indices (i)  0    1    2    3    4    5    6
+
+//letras.splice(3, 2);
+//// letras = ["A", "B", "D", "G", "H"]
+
+
+// 
+
+// exercicio 4
+
+const numeros = [1, 2, 3, 4, 5, 6];
+
+console.log(numeros.length);
+
+numeros.push(7);
+console.log(numeros);
+
+numeros.splice(3, 2);
+
+console.log(numeros);
+
+console.log(numeros.length);
